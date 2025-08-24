@@ -95,7 +95,7 @@
         loginMessage.style.color = "green";
         loginMessage.textContent = "✅ Zalogowano pomyślnie! Przechodzę do czatu...";
         setTimeout(() => {
-          window.location.href = "chat.html"; // tu wstawisz link do strony z czatem
+          window.location.href = "chat.html"; // Asjeno.pl
         }, 1500);
       } else {
         loginMessage.style.color = "red";
